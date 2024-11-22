@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Comparison</title>
+  <link rel="stylesheet" href="trial26.css">
+</head>
+<body>
+  <div id="textToTranslate">
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="#">Product Comparison</a>
+      </div>
+      <ul class="navbar-links">
+        <li class="dropdown">
+          <a href="#">Categories</a>
+          <div class="dropdown-content">
+            <div class="dropdown-column">
+              <a href="#" class="main-category" data-category="electronics">Electronics</a>
+              <div class="sub-dropdown-content" id="electronicsSub">
+                <a href="#">Mobiles</a>
+                <a href="#">Laptops</a>
+                <a href="#">Cameras</a>
+                <a href="#">Televisions</a>
+              </div>
+            </div>
+            <div class="dropdown-column">
+              <a href="#" class="main-category" data-category="grocery">Grocery</a>
+              <div class="sub-dropdown-content" id="grocerySub">
+                <a href="#">Fruits & Vegetables</a>
+                <a href="#">Dairy Products</a>
+                <a href="#">Snacks</a>
+                <a href="#">Beverages</a>
+              </div>
+            </div>
+            <div class="dropdown-column">
+              <a href="#">Home & Furniture</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#mission">Mission</a></li>
+        <li><input type="text" placeholder="Search..." class="search-input"><button class="search-button">Search</button></li>
+        <li><a href="#">Price History</a></li>
+        <li><a href="#salescalender">Sales Calendar</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li class="dropdown">
+          <a href="#">Account</a>
+          <div class="dropdown-content">
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+            <a href="#">Log Out</a>
+          </div>
+        </li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main content starts -->
+  <div class="main-content">
+    <!-- Mission content starts -->
+    <div id="mission">
+      <p>At [Your Website Name], our mission is to simplify and streamline your online shopping experience. We believe that finding the best products at the most competitive prices shouldn't be time-consuming or overwhelming. That's why we bring together a comprehensive range of products from various categories, allowing you to effortlessly search, compare, and make informed purchasing decisions all in one place. Our goal is to save you time and money, making online purchasing easier and more efficient than ever before.</p>
+    </div>
+    <!-- Mission content ends -->
+
+    <!-- Sales calendar content starts -->
+    <div id="salescalender">
+      <h1>Sales Calendar</h1>
+      <div class="sales-container">
+        <div class="sale-card">
+          <h2>Republic Day Sales</h2>
+          <p>January 20 - January 26</p>
+          <p>Celebrate the Republic Day with amazing deals and discounts across various categories.</p>
+        </div>
+        <div class="sale-card">
+          <h2>Holi Sales</h2>
+          <p>March 5 - March 10</p>
+          <p>Enjoy the festival of colors with vibrant discounts on electronics, clothing, and more.</p>
+        </div>
+        <div class="sale-card">
+          <h2>Independence Day Sales</h2>
+          <p>August 10 - August 15</p>
+          <p>Mark the Independence Day with freedom from high prices on your favorite products.</p>
+        </div>
+        <div class="sale-card">
+          <h2>Diwali Sales</h2>
+          <p>October 20 - November 5</p>
+          <p>Light up your life with the best deals of the year during the festive season of Diwali.</p>
+        </div>
+        <div class="sale-card">
+          <h2>End of Season Sales</h2>
+          <p>June 1 - June 30 & December 15 - December 31</p>
+          <p>Grab the best end-of-season deals and clearances on fashion, home decor, and more.</p>
+        </div>
+        <div class="sale-card">
+          <h2>New Year Sales</h2>
+          <p>December 25 - January 5</p>
+          <p>Welcome the New Year with big savings on electronics, fashion, and home appliances.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Sales calendar content ends -->
+  </div>
+
+  <script src="trial26.js"></script>
+</body>
+</html>

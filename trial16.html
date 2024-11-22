@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Comparison</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- <h1>Compare Product Prices</h1> -->
+  <form id="productForm">
+    <select id="category" required>
+      <option value="">Select Electronics</option>
+      <option value="ac">Air Conditioner</option>
+      <option value="fridge">Refrigerator</option>
+      <option value="tv">Television</option>
+      <option value="airfryer">Air Fryer</option>
+      <option value="storage">Storage</option>
+      <option value="laptops">Laptop</option>
+      <option value="headphones">Headphone</option>
+      <option value="tablets">Tablet</option>
+      <option value="smartwatch">Smartwatch</option>
+      <option value="homeaudio">Speakers</option>
+    </select>
+<!-- </br> -->
+    <!-- <input type="text" id="productName" placeholder="Enter product name" required> -->
+    <button type="submit">Compare Prices</button>
+  </form>
+  <div id="productDetails"></div>
+  <canvas id="priceChart" width="400" height="200"></canvas>
+  <div id="productPage" style="display: none;">
+    <button id="backButton">Back</button>
+    <div id="productPageContent"></div>
+  </div>
+  <script src="trial16.1.js"></script>
+</body>
+</html>

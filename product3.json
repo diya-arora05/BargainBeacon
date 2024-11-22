@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Television",
+      "description": "An efficient television.",
+      "price": 45000,
+      "imageUrl": "https://example.com/air-conditioner.jpg",
+      "links": [
+        { "name": "Website 1", "url": "https://example.com/product1" }
+       
+      ]
+    },
+    {
+      "title": "Television",
+      "description": "A television advanced features.",
+      "price": 55000,
+      "imageUrl": "https://example.com/air-conditioner.jpg",
+      "links": [
+        { "name": "Website 2", "url": "https://example.com/product1" }
+       
+      ]
+    }
+  ]
+  

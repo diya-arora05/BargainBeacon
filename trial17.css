@@ -1,0 +1,31 @@
+*{
+    background-color: bisque;
+}
+#navbar{
+    background-color: skyblue;
+    height: 100px;
+    width: 100vw;
+    margin-top: 0px;
+    position: fixed;
+}
+.buttons{
+   background-color: white;
+   color: black;
+   height: 55px;
+   width: 95px;
+   border-radius: 20px;
+}
+#Help{
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 150px;
+    border-radius: 20px;
+}
+#Review{
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 150px;
+    border-radius: 20px;
+}

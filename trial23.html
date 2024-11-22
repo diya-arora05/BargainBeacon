@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Dropdowns</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Select a Category</h1>
+  <div class="dropdown-container">
+    <label for="mainCategory">Main Category:</label>
+    <select id="mainCategory">
+      <option value="">Select Category</option>
+      <option value="electronics">Electronics</option>
+      <option value="grocery">Grocery</option>
+    </select>
+  </div>
+  <div class="dropdown-container" id="subCategoryContainer" style="display: none;">
+    <label>Sub Categories:</label>
+    <ul id="subCategoryList"></ul>
+  </div>
+
+  <script src="trial23.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Comparison</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <form id="productForm">
+    <select id="category" required>
+      <option value="">Select Grocery</option>
+      <option value="Grains">Grains</option>
+      <option value="BreakfastFood">Breakfast Food</option>
+      <option value="Drinks">Drinks & Juices</option>
+      <option value="Household">Cleaning & Household</option>
+      <option value="Personalcare">Hygiene & PersonalCare</option>
+      <option value="Body">Bath & Body</option>
+      <option value="Beauty">Beauty & MakeUp</option>
+      <!-- <option value="">Tablet</option>
+      <option value="">Smartwatch</option>
+      <option value="">Speakers</option> -->
+    </select>
+    <button type="submit">Compare Prices</button>
+  </form>
+  <div id="productDetails"></div>
+  <canvas id="priceChart" width="400" height="200"></canvas>
+  <div id="productPage" style="display: none;">
+    <button id="backButton">Back</button>
+    <div id="productPageContent"></div>
+  </div>
+  <script src="trial16.3.js"></script>
+</body>
+</html>
+

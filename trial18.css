@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hover-area {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup-button {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 100%; /* Position below the hover area */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container:hover .popup-button {
+    display: block; /* Show the button when hovering over the container */
+  }
+  

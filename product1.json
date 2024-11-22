@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Air Conditioner",
+      "description": "An efficient air conditioner to keep your room cool.",
+      "price": 45000,
+      "imageUrl": "https://th.bing.com/th/id/R.943972827e607c9ca3346d0a2f4733b1?rik=jWKiKBm4dE59DQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-XjutfYhW3wc%2fUZRo-qiK4KI%2fAAAAAAAADsY%2fpNl1nZetyXk%2fs1600%2fAir%2bConditioner%2bSplit.jpg&ehk=QXpf9UwKP4yhjo4ZH4TUjdNm7r98VKDZeYJJsf%2fAKoM%3d&risl=&pid=ImgRaw&r=0",
+      "links": [
+        { "name": "Website 1", "url": "product1.1.html" }
+       
+      ]
+    },
+    {
+      "title": "Air Conditioner Deluxe",
+      "description": "A deluxe air conditioner with advanced features.",
+      "price": 55000,
+      "imageUrl": "https://www.eedesignit.com/wp-content/uploads/2016/07/air-conditioners.jpg",
+      "links": [
+        { "name": "Website 1", "url": "product1.2.html" }
+       
+      ]
+    }
+  ]
+  

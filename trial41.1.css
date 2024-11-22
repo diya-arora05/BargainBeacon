@@ -1,0 +1,24 @@
+
+/* Animated Text Styles */
+.animated-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+    border-right: 2px solid #007BFF;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(50,end), blink-caret .75s step-end infinite;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #007BFF; }
+}

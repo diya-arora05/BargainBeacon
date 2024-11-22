@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Laptop",
+      "description": "An efficient laptop.",
+      "price": 45000,
+      "imageUrl": "https://example.com/air-conditioner.jpg",
+      "links": [
+        { "name": "Website 1", "url": "https://example.com/product1" }
+       
+      ]
+    },
+    {
+      "title": "Laptop",
+      "description": "A deluxe air conditioner with advanced features.",
+      "price": 55000,
+      "imageUrl": "https://example.com/air-conditioner.jpg",
+      "links": [
+        { "name": "Website 2", "url": "https://example.com/product1" }
+       
+      ]
+    }
+  ]
+  
